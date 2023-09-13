@@ -139,6 +139,6 @@ app.post("/comments", async function (request, response) {
 })
 
 // listen for requests :)
-const listener = app.listen(process.env.PORT, function () {
+const listener = app.listen(9999, function () {
   console.log("Your app is listening on port " + listener.address().port)
 })
